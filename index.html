@@ -11,8 +11,6 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <title>Password Generator</title>
         <link rel="stylesheet" href="styles.css">
-        <!-- <link rel="stylesheet" href="style.css" /> -->
-    <!-- <link rel="stylesheet" href="style.css" /> -->
 </head>
 
 <body>
@@ -37,76 +35,7 @@
       </div>
     </div>
   </div>
-    <!-- <script src="script.js"></script> -->
-    <!-- <script>
-        var CharArry = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "!", "#", "$", "%", "&", "'", "(", ")", "*", "+", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "]", "^", "{", "}", "|", "~"];
-        var MaxCharArry = CharArry.length;
-        var MaxPassWLength = 128;
-        var MaxLetter
-        var alfaRB, alfaNumRB, allRB, capchoiceL, capchoiceU, capchoiceB = false;
-        var passwordPart = "";
-        var elementNum = -1;
-        var passwordALL = "";
-        var PasswordCount = -1;
-
-        /*************************** ********************
-        * code selects proper element
-        * if the select just alfa then elemend 0 to 26
-        * if the select alfa numeric 0 to 36
-        * if the select Specile char the 0 to 63
-        ************************************************************/
-        PasswordCount = 10;
-        for (let index = 0; index < PasswordCount; index++) {
-            // const element = array[index];
-            // alfaRB= true;
-            // alfaNumRB = true;
-            allRB = true;
-            if (alfaRB === true) {
-                elementNum = Math.floor(Math.random() * 26);
-                passwordPart = CharArry[elementNum];
-            } else if (alfaNumRB === true) {
-                elementNum = Math.floor(Math.random() * 36);
-                passwordPart = CharArry[elementNum];
-
-            } else if (allRB === true) {
-                elementNum = Math.floor(Math.random() * 63);
-                passwordPart = CharArry[elementNum];
-            }
-            console.log(passwordPart + "|" + elementNum);
-
-            /*************************************************
-             * code changes case based on users selection
-             * if capchoice = lower case
-             * if capchoice = upper case
-             * if capchoice is both upper and lowwer case
-             * ************************************************/
-            // capchoiceL= true;
-            // capchoiceU = true;
-            capchoiceB = true;
-
-            if (capchoiceL === true) {
-                passwordPart = CharArry[elementNum].toLowerCase();
-                // console.log("in lowwer");
-            }
-            else if (capchoiceU === true) {
-                passwordPart = CharArry[elementNum].toUpperCase();
-                // console.log("in Upper");
-            } else if (capchoiceB === true) {
-                // console.log("in both");
-                if (Math.floor(Math.random() * 11) < 5) {
-                    passwordPart = CharArry[elementNum].toLowerCase();
-                    // console.log("in both lowwer");
-                } else {
-                    passwordPart = CharArry[elementNum].toUpperCase();
-                    // console.log("in both upper");
-                }
-            }
-            passwordALL = passwordALL + passwordPart;
-        }
-        console.log("this is the password " + passwordALL + " THE PASSWORD"); -->
-<!-- /**************************************/ -->
-
-    </script>
+     </script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
