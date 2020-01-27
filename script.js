@@ -92,8 +92,8 @@ function writePassword() {
     for (let index = 0; index < PasswordCount; index++) {
         // const element = array[index];
         // alfaRB= true;
-        alfaNumRB = true;
-        allRB = true;
+        //alfaNumRB = true;
+        //allRB = true;
         if (alfaRB === true) {
             elementNum = Math.floor(Math.random() * 26);
             passwordPart = CharArry[elementNum];
@@ -103,7 +103,7 @@ function writePassword() {
 
         } else if (allRB === true) {
             elementNum = Math.floor(Math.random() * 63);
-            passwordPart = CharArry[elementNum];
+            passwordPart =  CharArry[elementNum];
         }
          /*************************************************
          * code changes case based on users selection
