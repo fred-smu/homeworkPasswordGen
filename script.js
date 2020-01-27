@@ -15,6 +15,7 @@ var letter1, letter2 = null;
 var numberSize = 8;
 var i = 0;
 function writePassword() {
+    if (passwordALL.length > 7){ passwordALL = ""};
     do {
         alfaRB = false;
         alfaNumRB = false;
